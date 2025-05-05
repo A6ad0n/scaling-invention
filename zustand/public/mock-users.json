@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "username": "kristinward",
+    "sex": "F",
+    "address": "122 Powell Trace Suite 016, Lloydport, SC 08075",
+    "name": "Katherine Gill",
+    "email": "jestrada@gmail.com",
+    "birthday": "1958-04-05"
+  },
+  {
+    "id": "2",
+    "username": "michaeljohnson",
+    "sex": "M",
+    "address": "742 Evergreen Terrace, Springfield, IL 62704",
+    "name": "Michael Johnson",
+    "email": "mjohnson@example.com",
+    "birthday": "1983-11-15"
+  },
+  {
+    "id": "3",
+    "username": "emilywhite",
+    "sex": "F",
+    "address": "500 Maple St, Rivertown, TX 75001",
+    "name": "Emily White",
+    "email": "emily.white@example.com",
+    "birthday": "1990-07-21"
+  },
+  {
+    "id": "4",
+    "username": "robertbrown",
+    "sex": "M",
+    "address": "88 Pine Rd, Lakeview, NY 10001",
+    "name": "Robert Brown",
+    "email": "rbrown@example.com",
+    "birthday": "1975-03-30"
+  },
+  {
+    "id": "5",
+    "username": "sarawilliams",
+    "sex": "F",
+    "address": "321 Oak Ave, Hilltown, CA 90210",
+    "name": "Sara Williams",
+    "email": "sara.w@example.com",
+    "birthday": "1995-12-10"
+  },
+  {
+    "id": "6",
+    "username": "davidlee",
+    "sex": "M",
+    "address": "789 Cedar Blvd, Beachtown, FL 33101",
+    "name": "David Lee",
+    "email": "dlee@example.com",
+    "birthday": "1988-06-05"
+  },
+  {
+    "id": "7",
+    "username": "laurenscott",
+    "sex": "F",
+    "address": "234 Birch Ln, Snowville, CO 80014",
+    "name": "Lauren Scott",
+    "email": "lscott@example.com",
+    "birthday": "1992-02-18"
+  },
+  {
+    "id": "8",
+    "username": "jamesmiller",
+    "sex": "M",
+    "address": "600 Willow Dr, Sunnytown, AZ 85001",
+    "name": "James Miller",
+    "email": "jmiller@example.com",
+    "birthday": "1980-09-25"
+  },
+  {
+    "id": "9",
+    "username": "natalieadams",
+    "sex": "F",
+    "address": "910 Elm St, Windy City, IL 60601",
+    "name": "Natalie Adams",
+    "email": "nadams@example.com",
+    "birthday": "1986-08-14"
+  },
+  {
+    "id": "10",
+    "username": "chrisroberts",
+    "sex": "M",
+    "address": "345 Spruce Way, Greentown, OR 97035",
+    "name": "Chris Roberts",
+    "email": "croberts@example.com",
+    "birthday": "1979-01-09"
+  }
+]
