@@ -1,8 +1,13 @@
 import { User } from '@mytypes/user';
 import { useUserStore } from '../store/userStore';
+import '../index.css'
 
 export const UserRow = ({ user }: { user: User }) => {
-  const { deletingUserId, setDeletingUserId, deleteUser, selectUser } = useUserStore();
+  const deletingUserId = useUserStore(state => state.deletingUserId);
+  const addingUserId = useUserStore(state => state.addingUserId);
+  const setDeletingUserId = useUserStore(state => state.setDeletingUserId);
+  const deleteUser = useUserStore(state => state.deleteUser);
+  const selectUser = useUserStore(state => state.selectUser); 
 
   const handleDelete = () => {
     setDeletingUserId(user.id);
@@ -16,7 +21,11 @@ export const UserRow = ({ user }: { user: User }) => {
    <tr
       onClick={() => selectUser(user)}
       className={`transition-all duration-300 transform hover:scale-[1.02] cursor-pointer ${
-        deletingUserId === user.id ? 'opacity-40 scale-[0.98]' : ''
+        deletingUserId === user.id 
+        ? 'opacity-0 scale-[0.98]' 
+        : addingUserId === user.id 
+          ? 'animate-fadeInScale'
+          : ''
       }`}
     >
       <td className="px-4 py-2">{user.username}</td>

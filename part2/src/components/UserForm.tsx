@@ -1,9 +1,9 @@
-// components/UserForm.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useUserStore } from '../store/userStore';
 
 export const UserForm = () => {
-  const { addUser, setAddingUserId } = useUserStore();
+  const addUser = useUserStore(state => state.addUser);
+  const setAddingUserId = useUserStore(state => state.setAddingUserId);
   const [username, setUsername] = useState('');
   const [address, setAddress] = useState('');
   const [email, setEmail] = useState('');
@@ -19,12 +19,12 @@ export const UserForm = () => {
       birthday: '',
     };
     setAddingUserId(newUser.id);
+    addUser(newUser);
+    setUsername('');
+    setAddress('');
+    setEmail('');
     setTimeout(() => {
-      addUser(newUser);
       setAddingUserId(null);
-      setUsername('');
-      setAddress('');
-      setEmail('');
     }, 500);
   };
 
